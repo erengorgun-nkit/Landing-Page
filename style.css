@@ -1,9 +1,13 @@
 @font-face {
-    font-family: myFont;
+    font-family: myfont-regular;
     src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+@font-face {
+    font-family: myfont-bold;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
 *{
-    font-family: myFont;
+    font-family: myfont-regular;
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -17,7 +21,7 @@ header{
     justify-content:space-between;
     margin-left:auto;
     padding-left:200px;
-    padding-right:185px;
+    padding-right:175px;
     padding-top:20px;
     padding-bottom:20px;
     margin-bottom:100px;
@@ -31,7 +35,7 @@ header{
     justify-content:space-around;
 }
 .header-item a{
-    padding-right:15px;
+    padding-right:25px;
     text-decoration:none;
     color:#E5E7EB;
     font-size:18px;
@@ -44,7 +48,8 @@ header{
     color:#FFFFFF;
     height:250px;
     padding-left:200px;
-    padding-right:185px;
+    padding-right:200px;
+    margin-bottom: 100px;
 }
 .about-item{
     justify-content: space-between;
@@ -54,7 +59,7 @@ header{
 }
 #about-desc h1{
     font-size:48px;
-    font-weight:900;
+    font-family:myfont-bold;
     color:#F9FAF8;
     margin-bottom: 10px;
 }
@@ -63,12 +68,12 @@ header{
     color:#E5E7EB;
 }
 #about-image{
-    margin-left:10px;
-    width: 520px;
+    margin-left:45px;
+    width: 500px;
     border-radius:10px;
 }
 .signup-button1{
-    border:solid #3882F6;
+    border:3px solid #3882F6;
     margin-top:10px;
     background-color:#3882F6;
     color:#FFFFFF;
@@ -81,4 +86,19 @@ header{
 }
 .signup-button1:hover{
     transform:scale(1.1) perspective(1px)
+}
+
+
+
+.randominfo{
+    background-color:#FFFFFF;
+}
+.randominfo h1{
+    font-family:myfont-bold;
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+}
+.rinfo-container{
+    display:flex;
 }
