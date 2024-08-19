@@ -49,10 +49,7 @@ header{
     height:250px;
     padding-left:200px;
     padding-right:200px;
-    margin-bottom: 100px;
-}
-.about-item{
-    justify-content: space-between;
+    margin-bottom: 150px;
 }
 #about-desc{
     width:450px;
@@ -92,13 +89,29 @@ header{
 
 .randominfo{
     background-color:#FFFFFF;
+    height:400px;
+    padding-left:300px;
+    padding-right:300px;
 }
 .randominfo h1{
     font-family:myfont-bold;
     text-align: center;
     font-size: 36px;
     color:#1F2937;
+    padding-top:35px;
+    margin-bottom:50px;
 }
 .rinfo-container{
     display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.rinfo-image{
+    width:150px;
+    height:150px;
+    border:5px solid #3882F6;
+    border-radius: 10px;
+    color:#FFFFFF;
+    margin-left:10px;
+    margin-right: 10px;
 }
