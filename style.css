@@ -6,6 +6,10 @@
     font-family: myfont-bold;
     src: url(fonts/Roboto/Roboto-Bold.ttf);
 }
+@font-face{
+    font-family:myfont-light_italic;
+    src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+}
 *{
     font-family: myfont-regular;
     margin:0;
@@ -114,4 +118,26 @@ header{
     color:#FFFFFF;
     margin-left:10px;
     margin-right: 10px;
+}
+
+
+
+.quotes{
+    display:inline-block;
+    justify-content:space-between;
+    background-color:#E5E7EB;
+    padding-left:300px;
+    padding-right:300px;
+    padding-top:125px;
+    padding-bottom:125px;
+}
+.quote{
+    float-left;
+    font-family:myfont-light_italic;
+    font-size:36px;
+}
+.quoter{
+    float:right;
+    font-family:myfont-bold;
+    font-size:25px;
 }
